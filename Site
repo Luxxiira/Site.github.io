@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LuxiShop - Objets Virtuels Roblox</title>
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f4f6f9;
+        color: #333;
+    }
+
+    header {
+        background: #111827;
+        color: white;
+        padding: 20px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 24px;
+    }
+
+    .logo {
+        font-size: 14px;
+        opacity: 0.7;
+        font-weight: bold;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin-left: 20px;
+        font-size: 14px;
+    }
+
+    .hero {
+        background: linear-gradient(135deg, #4f46e5, #9333ea);
+        color: white;
+        padding: 80px 20px;
+        text-align: center;
+    }
+
+    .hero h2 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    .hero p {
+        font-size: 18px;
+        opacity: 0.9;
+    }
+
+    .products {
+        padding: 60px 50px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px;
+    }
+
+    .product-card {
+        background: white;
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        transition: 0.3s;
+    }
+
+    .product-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .product-card h3 {
+        margin-top: 0;
+        font-size: 20px;
+    }
+
+    .price {
+        font-size: 18px;
+        color: #4f46e5;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 10px 15px;
+        background: #4f46e5;
+        color: white;
+        text-decoration: none;
+        border-radius: 6px;
+        font-size: 14px;
+        transition: 0.3s;
+    }
+
+    .btn:hover {
+        background: #3730a3;
+    }
+
+    footer {
+        background: #111827;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        font-size: 13px;
+        margin-top: 40px;
+    }
+
+    .small-logo {
+        position: fixed;
+        bottom: 10px;
+        right: 15px;
+        font-size: 12px;
+        opacity: 0.5;
+        font-weight: bold;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>LuxiShop</h1>
+    <div class="logo">LuxiShop</div>
+    <nav>
+        <a href="#">Accueil</a>
+        <a href="#">Boutique</a>
+        <a href="#">Support</a>
+        <a href="#">Connexion</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Votre Boutique d'Objets Virtuels Roblox</h2>
+    <p>Découvrez des objets exclusifs, sécurisés et livrés rapidement pour améliorer votre expérience sur Roblox.</p>
+</section>
+
+<section class="products">
+    
+    <div class="product-card">
+        <h3>Pack Robux Premium</h3>
+        <p>Recevez vos Robux rapidement et en toute sécurité.</p>
+        <div class="price">9,99€</div>
+        <a href="#" class="btn">Acheter maintenant</a>
+    </div>
+
+    <div class="product-card">
+        <h3>Skin Exclusif Avatar</h3>
+        <p>Personnalisez votre avatar avec un style unique.</p>
+        <div class="price">4,99€</div>
+        <a href="#" class="btn">Acheter maintenant</a>
+    </div>
+
+    <div class="product-card">
+        <h3>Accessoire Rare</h3>
+        <p>Objet virtuel rare disponible pour une durée limitée.</p>
+        <div class="price">7,49€</div>
+        <a href="#" class="btn">Acheter maintenant</a>
+    </div>
+
+</section>
+
+<footer>
+    © 2026 LuxiShop - Tous droits réservés.  
+    <br>
+    Plateforme indépendante non affiliée à Roblox Corporation.
+</footer>
+
+<div class="small-logo">LuxiShop</div>
+
+</body>
+</html>
